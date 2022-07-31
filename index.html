@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Integrador 2</title>
-    <link rel="stylesheet" href="css/styles.css">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="css/special-delivery.jpg">
 </head>
 <body>
     <!-- HEADER -->
@@ -21,12 +23,16 @@
             <img src="img/close-menu.svg" id="close-menu">
         </button>
 
-    <nav>
-            <div id="menu">
-                <a class="menu-item active" href="#inicio">Inicio</a>
-                <a class="menu-item active" href="#contacto">Contacto</a>
-            </div>
-    </nav>
+       <nav>
+            <ul id="menu">
+                <li class="menu-item active">
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li a class="menu-item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <!-- MAIN -->
@@ -34,11 +40,14 @@
         <!-- INICIO -->
         <section id="inicio">
             <figure class="presentacion-img">
-                <img id= "bio-pic" src="img2/Foto-Ali.jpg" alt="Foto de Ali">
+                <img id= "bio-pic" src="img/Foto-Ali.jpg" alt="Foto de Ali">
             </figure>
             <article class="presentacion">
                 <h1>Hola! Soy Ali</h1>
-                <p>Soy estudiante de 1er año de la carrera de Sistemas en la UADE, trabajo en la Secretaria de Medios y Comunicacion Publica como ASistente Administrativa. Mi objteivo es desarrollar mis habilidades, y conocimientos en administración brindando el mayor compromiso y dedicación en mis tareas. Cuento para ello con capacidad de análisis y organizativa, facilidad para el trabajo en equipo, adaptabilidad, proactividad, predisposición y entusiasmo para el aprendizaje.</p>
+
+                <p>Soy estudiante de 1er año de la carrera de Sistemas en la UADE, trabajo en la Secretaria de Medios y Comunicacion Publica como Asistente Administrativa. Mi objteivo es desarrollar mis habilidades, y conocimientos en administración brindando el mayor compromiso y dedicación en mis tareas. Cuento para ello con capacidad de análisis y organizativa, facilidad para el trabajo en equipo, adaptabilidad, proactividad, predisposición y entusiasmo para el aprendizaje.
+
+                </p>
                 
                 <a href="Alison-Rimarez-(CV-original).pdf" target="_blank" class="botoncv">Descargar mi CV</a>
             </article>
@@ -50,18 +59,34 @@
                 <h2>Hablemos!</h2>
                 <p>Si se encuentra en la búsqueda de una Asistente Administrativa, puede contactarme directamente usando los siguientes enlaces</p>
             </article>
-            <figure>
-                <a href="mailto:alisonagustina44@gmail.com" target="_blank" aria-label="Enviar mail"><img src="img/mail.png" alt="Mail logo" class="social"></a>
-                <a href="https://github.com/Alismar34" target="_blank" aria-label="Ir al perfil de github"><img src="img/github.png" alt="Github logo" class="social"></a>
-                <a href="https://www.linkedin.com//" target="_blank" aria-label="Ir al perfil de linkedin"><img src="img/linkedin.png" alt="Likedin logo"  class="social"></a>
-            </figure>
+
+            <ul id="contact-links">
+                <li>
+                    <a href="mailto:alisonagustina44@gmail.com" target="_blank" aria-label="Enviar mail">
+                        <img src="img/mail.png" alt="Mail logo" class="social">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Alismar34" target="_blank" aria-label="Ir al perfil de github">
+                        <img src="img/github.png" alt="Github logo" class="social">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com//" target="_blank" aria-label="Ir al perfil de linkedin">
+                        <img src="img/linkedin.png" alt="Likedin logo"  class="social">
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <small>Código Latam</small>
+      <small>Código Latam</small>
     </footer>
-<script src="js/main.js"></script>
+    
+    <!-- JS -->
+    <script src="js/main.js"></script>
+
 </body>
 </html>
